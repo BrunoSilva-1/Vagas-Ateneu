@@ -59,7 +59,14 @@ article {
 #vaga-exemplo {
     width: 350px;
     border-radius: 20px;
-    margin :12px; 
+    position: relative;
+    margin :12px;
+    transition: 0.5s;
     
     
+    
+}
+
+#vaga-exemplo:hover {
+    transform:translateY(15px);
 }
