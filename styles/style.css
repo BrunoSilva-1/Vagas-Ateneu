@@ -1,0 +1,87 @@
+body {
+    background: #008B8B;
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+   color: white ; 
+}
+
+a:hover {
+    color: #7FFFD4;
+    transition: 0.3s all;
+
+}
+
+#portal-btn {
+    border: 2px solid #7FFFD4;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#portal-btn:hover {
+    background-color: #7FFFD4;
+    color: white;
+}
+
+h1 {
+   font-weight: 200; 
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}    
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+  
+}
+
+span {
+    color: #7FFFD4;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+   
+}
+
+img {
+    width: 550px;
+    margin-left: 60px ;
+   
+
+}
+
+#vaga-exemplo {
+    width: 380px;
+    border-radius: 20px;
+}
