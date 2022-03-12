@@ -1,0 +1,27 @@
+@media screen and (max-width: 760px) {
+
+    header {
+        position: relative;
+        display: inline-block;
+        flex-direction: column;
+        margin-left: 55px;
+    }
+
+
+
+    ul {
+        display: inline;
+
+        align-self: auto;
+
+    }
+
+    span {
+        display: flex;
+        font-size: 38px;
+        margin-left: 50px;
+    }
+
+    article {
+        margin-left: 35px;
+    }

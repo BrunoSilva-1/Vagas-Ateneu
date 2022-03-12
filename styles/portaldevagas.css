@@ -50,6 +50,9 @@ span {
     color: #7FFFD4;
 }
 
+
+
+
 article {
     margin-top: 100px;
     display: flex-grid;
@@ -62,11 +65,14 @@ article {
     position: relative;
     margin :12px;
     transition: 0.5s;
+    cursor: pointer;
+    border: 5px solid #7FFFD4;
+    align-items:initial;
     
     
     
 }
 
 #vaga-exemplo:hover {
-    transform:translateY(15px);
+    transform:translateY(-15px);
 }

@@ -52,6 +52,7 @@ h1 {
 
 main {
     display: flex;
+    justify-content:center;
     flex-direction: row;
     margin-top: 70px;
 }    
@@ -75,7 +76,7 @@ p {
 }
 
 img {
-    width: 550px;
+    width: 600px;
     margin-left: 60px ;
    
 
@@ -84,4 +85,53 @@ img {
 #vaga-exemplo {
     width: 380px;
     border-radius: 20px;
+}
+
+.rodape {
+    color: white;
+    display: inline-block;
+    margin-top: 250px;
+    border: 2px solid #7FFFD4;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 32%;
+    margin-right: 20%;
+    
+
+}
+
+.rodape:hover {
+    background-color: #7FFFD4;
+    color: white;
+   
+}
+
+#feedback {
+    color: white;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+.siganos {
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-top: 50px;
+}
+
+.redes {
+    display: flex;
+    margin-left: 80px;
+    margin-left: 41%;
+    margin-right: 30%;
+
+}
+
+#insta {
+    height: 40px;
+    width: 40px;
+}
+#twitter {
+    height: 40px;
+    width: 40px;
 }

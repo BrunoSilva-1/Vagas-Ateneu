@@ -1,0 +1,137 @@
+body {
+    background: #008B8B;
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+   color: white ; 
+}
+
+a:hover {
+    color: #7FFFD4;
+    transition: 0.3s all;
+
+}
+
+#portal-btn {
+    border: 2px solid #7FFFD4;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#portal-btn:hover {
+    background-color: #7FFFD4;
+    color: white;
+}
+
+aside {
+    font-family: poppinsbold;
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.bruno {
+    display:flex; 
+    align-items: center;
+    margin-top: 80px;         
+}
+
+#bruno { 
+    width: 200px;
+    height: 200px;
+    margin-right: 25px;
+    border-radius: 100px;
+    border: 3px solid #7FFFD4;    
+}
+
+.tatiane {
+    display:flex; 
+    align-items: center;
+    justify-content: right;
+    flex-direction: row-reverse;        
+}
+
+
+#tatiane {
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    border-radius: 100px;
+    border: 3px solid #7FFFD4;
+
+}
+
+
+.felipe {
+    display:flex; 
+    align-items: center;
+        
+}
+
+
+#felipe {
+    width: 200px;
+    height: 200px;
+    margin-right: 25px;
+    border-radius: 100px;
+    border: 3px solid #7FFFD4;
+
+}
+
+
+.ruan{
+    display:flex; 
+    align-items: center;
+    justify-content: right;
+    flex-direction: row-reverse;        
+}
+
+
+#ruan {
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    border-radius: 100px;
+    border: 3px solid #7FFFD4;
+
+}
+
+
+.nilton {
+    display:flex; 
+    align-items: center;
+    margin-bottom: 150px; 
+      
+}
+
+
+#nilton {
+    width: 200px;
+    height: 200px;
+    margin-right: 25px;
+    border-radius: 100px;
+    border: 3px solid #7FFFD4;
+
+}

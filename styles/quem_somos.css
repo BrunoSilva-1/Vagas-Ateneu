@@ -1,0 +1,73 @@
+body {
+    background: #008B8B;
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+   color: white ; 
+}
+
+a:hover {
+    color: #7FFFD4;
+    transition: 0.3s all;
+
+}
+
+#portal-btn {
+    border: 2px solid #7FFFD4;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#portal-btn:hover {
+    background-color: #7FFFD4;
+    color: white;
+}
+
+main {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.titulo-quem {
+    font-size: 45px;
+    color: #7FFFD4;
+    font-family: poppinsbold;
+}
+
+.descricao {
+    line-height: 28px;
+    max-width: 650px;
+    text-align: justify;
+    font-family: poppinslight;
+ 
+}
+
+.imagem-quem-somos {
+    transform: scaleX(-1);
+
+}
