@@ -1,10 +1,8 @@
 body {
-    background: #008B8B;
+    background-color:#008B8B;
     color: white;
     font-family: poppinsregular;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px;
+    
 }
 
 header {
@@ -12,6 +10,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 0 50px 0 50px;
+    padding: 15px;
 
 }
 
@@ -87,6 +87,8 @@ img {
     border-radius: 20px;
 }
 
+
+
 .rodape {
     color: white;
     display: inline-block;
@@ -135,3 +137,4 @@ img {
     height: 40px;
     width: 40px;
 }
+
